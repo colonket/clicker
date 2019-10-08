@@ -13,6 +13,7 @@ body{
 	background-color: grey;
 	padding: 1em;
 	margin: 1em;
+	width: 50%;
 }
 #logo{
 	width: 256px;
