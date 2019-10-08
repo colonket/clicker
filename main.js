@@ -13,8 +13,8 @@ function buyASIC(){
     	coins = coins - asicCost;                          //removes the coins spent
         document.getElementById('asics').innerHTML = asics;  //updates the number of asics for the user
         document.getElementById('coins').innerHTML = coins;  //updates the number of coins for the user
+    	asicCost = Math.floor(asicCost*2);       //works out the cost of the next cursor
     };
-    asicCost = Math.floor(Math.pow(asicCost, 2));       //works out the cost of the next cursor
     document.getElementById('asicCost').innerHTML = asicCost;  //updates the cursor cost for the user
 };
 

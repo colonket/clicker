@@ -4,17 +4,18 @@
 	</head>
 	<body>
 		<img id="logo" src="assets/clickcoin.gif" />
-		<br />
+		
+		<div id="click">
 		<button onclick="coinClick(1)">Mine ClickCoin&trade;</button>
 		<br />
 		<i>ClickCoins&trade;</i>: <span id="coins">0</span>
-		<br />
-		<br />
-		<button onclick="buyASIC()">Buy ASIC</button>
-		<br />
-		ASIC's: <span id="asics">0</span>
-		<br />
+		</div>
+
+		<div id="store">
+			<button onclick="buyASIC()">Buy ASIC</button><br />
+		ASIC's: <span id="asics">0</span><br />
 		ASIC Cost: <span id="asicCost">10</span>
+		</div>
 
 		<script type="text/javascript" src="main.js"></script>
 	</body>
