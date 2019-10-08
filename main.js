@@ -7,7 +7,7 @@ function coinClick(number){
 
 var asics = 0;
 
-function buyCursor(){
+function buyASIC(){
     var asicCost = Math.floor(10 * Math.pow(1.1,asics));     //works out the cost of this cursor
     if(coins >= asicCost){                                   //checks that the player can afford the cursor
         asics = asics + 1;                                   //increases number of asics
