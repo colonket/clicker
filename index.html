@@ -6,20 +6,46 @@
 		<img id="logo" src="assets/clickcoin.gif" />
 		
 		<div id="click">
-		<button onclick="coinClick(1)">Mine ClickCoin&trade;</button>
-		<br />
-		<i>ClickCoins&trade;</i>: <span id="coins">0</span>
+			
+			<button onclick="coinClick(1)">
+				Mine ClickCoin&trade;
+			</button><br />
+			<i>ClickCoins&trade;</i>: <span id="coins">0</span>
+		
 		</div>
 
 		<div id="store">
-		<button onclick="buyASIC()">Buy ASIC</button><br />
-		ASIC's: <span id="asics">0</span><br />
-		ASIC Cost: <span id="asicCost">10</span><br />
-		<br />	
-		<button onclick="alert('ope')">Buy Nuclear Power Plant</button><br />
-		Nuclear Power Plants: <span id="npp">0</span><br />
-		Nuclear PP Cost: <span id="nppCost">0</span><br />	
+			
+			<div class="product">
+			<button onclick="buyASIC()">
+				Buy ASIC
+			</button><br />
+			ASIC's: <span id="asics">0</span><br />
+			ASIC Cost: <span id="asicCost">10</span><br />
+			</div>
 
+			<div class="product">
+			<button onclick="buyNPP()">
+				Buy Nuclear Power Plant
+			</button><br />
+			Nuclear Power Plants: <span id="npp">0</span><br />
+			Nuclear PP Cost: <span id="nppCost">0</span><br />	
+			<div>
+			
+			<div class="product">
+			<button onclick="buyEndorsement()">
+				Buy Endorsement
+			</button><br />
+			Endorsements: <span id="thing">0</span><br />
+			Endorsement Cost: <span id="thingCost">0</span><br />	
+			<div>
+		<!--<div class="product">
+			<button onclick="buyThing()">
+				Buy Thing
+			</button><br />
+			Thing Quantity: <span id="thing">0</span><br />
+			Thing Cost: <span id="thingCost">0</span><br />	
+			<div>-->
 		</div>
 
 		<script type="text/javascript" src="main.js"></script>
